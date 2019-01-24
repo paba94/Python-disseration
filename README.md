@@ -14,7 +14,7 @@ Methodology
 
 The flight turnarounds were calculated, and the turnarounds splitting was performed. This separated the flights into “overnight parking operations” and “stand operations” that arrive and leave on the same day.
 
-The Stand Allocation Heuristic formulated was a hybrid heuristic that combined concepts from the Greedy heuristic and the Breakout Local Search heuristic. It followed a “first come, first assigned” policy because it is a common practise in the industry. Thus, flights with the earliest arrival times were chosen greedily to be allocated first. If more than one feasible pier-served or remote stand was available, the heuristic chose to allocate to the stand that had served the highest number of passengers.
+The "Stand Allocation Heuristic" formulated was a hybrid heuristic that combined concepts from the Greedy heuristic and the Breakout Local Search heuristic. It followed a “first come, first assigned” policy because it is a common practise in the industry. Thus, flights with the earliest arrival times were chosen greedily to be allocated first. If more than one feasible pier-served or remote stand was available, the heuristic chose to allocate to the stand that had served the highest number of passengers.
 
 The heuristic produced an initial schedule which was then checked to identify flights, in each stand, that didn’t adhere to the buffer times restriction. If any overlapping existed, these flights were removed from the schedule and reallocated to other feasible stands. 
 
