@@ -23,3 +23,7 @@ The procedure of the Stand Allocation heuristic segregated the flight data by fl
 In industry, airport planners create the stand allocation schedules daily due to the high probability of changes in the flight schedule. For this reason, the Stand Allocation heuristic was also designed to work with daily flight data. 
 	
 All the models, for data manipulation and the heuristic, were made using the programming language Python. The models were then tested on the flight schedule for the 21st July 2017.
+
+
+* For each of the Python files, a description of it's function has been included. For further details about the problem, like the specific constraints dictating the compatibility between aircrafts and the stands, please refer to the "Methodolgy" chapter of the report document.
+* This project was done as a part of my MSc degree at University of Southampton (UK). All the details of the project and the input data were provided by Arup (London). Due to a non-disclosure agreement I am unable to provide any detailed CSV files of the data I used for the project.
